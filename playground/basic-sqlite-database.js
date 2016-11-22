@@ -27,7 +27,7 @@ sequelize.sync().then(function() {
             if (todo) {
                 console.log(todo.toJSON());
             } else {
-            	console.log('no todo found!');
+                console.log('no todo found!');
             }
         })
         .catch(function(e) {
